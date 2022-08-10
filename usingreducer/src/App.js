@@ -35,7 +35,7 @@ function App() {
       }}
     >
       <React.Fragment>
-        <MainHeader isAuthenticated={isLoggedIn} onLogout={logoutHandler} />{" "}
+        <MainHeader />{" "}
         <main>
           {" "}
           {!isLoggedIn && <Login onLogin={loginHandler} />}{" "}
